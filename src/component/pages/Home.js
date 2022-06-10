@@ -15,7 +15,7 @@ const Home = () =>{
     return (
         <div className='container'>
             <h1>
-                Home Page
+               This is Home Page
             </h1>
 
             <table class="table">

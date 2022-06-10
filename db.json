@@ -2,7 +2,7 @@
   "users": [
     {
       "id": 1,
-      "name": "Leanne Graham",
+      "name": "Leanne Graham aswini",
       "username": "Bret",
       "email": "Sincere@april.biz",
       "address": {
@@ -245,14 +245,6 @@
       "phone": "7004789484",
       "website": "asw@fajda.com",
       "id": 12
-    },
-    {
-      "name": "test",
-      "username": "da",
-      "email": "as6dec@gmail.com",
-      "phone": "07004789484",
-      "website": "123",
-      "id": 13
     }
   ]
 }

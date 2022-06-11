@@ -91,6 +91,14 @@
         "catchPhrase": "Multi-tiered zero tolerance productivity",
         "bs": "transition cutting-edge web services"
       }
+    },
+    {
+      "name": "Aswini Verma",
+      "username": "dasd",
+      "email": "as6dec@gmail.com",
+      "phone": "07004789484",
+      "website": "asddsa",
+      "id": 5
     }
   ],
   "songs": [
@@ -99,7 +107,7 @@
       "name": "banjara",
       "artist": "arijit",
       "dateOfRelease": "22=05-2020",
-      "img": "img",
+      "img": "/images/download.jpg",
       "rating": 5
     },
     {
@@ -133,6 +141,78 @@
       "img": "xcvbnm,",
       "rating": "8",
       "id": 5
+    },
+    {
+      "name": "Go on Daddy",
+      "artist": "Aswini ",
+      "dateOfRelease": "22/2/2022",
+      "img": "567",
+      "rating": "2",
+      "id": 6
+    },
+    {
+      "name": "",
+      "artist": "",
+      "dateOfRelease": "",
+      "img": "",
+      "rating": "",
+      "id": 7
+    },
+    {
+      "name": "",
+      "artist": "",
+      "dateOfRelease": "",
+      "img": "",
+      "rating": "",
+      "id": 8
+    },
+    {
+      "name": "",
+      "artist": "",
+      "dateOfRelease": "",
+      "img": "",
+      "rating": "",
+      "id": 9
+    },
+    {
+      "name": "",
+      "artist": "",
+      "dateOfRelease": "",
+      "img": "",
+      "rating": "",
+      "id": 10
+    },
+    {
+      "name": "",
+      "artist": "",
+      "dateOfRelease": "",
+      "img": "",
+      "rating": "",
+      "id": 11
+    },
+    {
+      "name": "",
+      "artist": "",
+      "dateOfRelease": "",
+      "img": "",
+      "rating": "",
+      "id": 12
+    },
+    {
+      "name": "",
+      "artist": "",
+      "dateOfRelease": "",
+      "img": "",
+      "rating": "",
+      "id": 13
+    },
+    {
+      "name": "",
+      "artist": "",
+      "dateOfRelease": "",
+      "img": "",
+      "rating": "",
+      "id": 14
     }
   ]
 }

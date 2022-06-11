@@ -1,6 +1,11 @@
 import React from 'react';
-import {Link, NavLink} from "react-router-dom";
+import  {Link, NavLink, useRouter} from "react-router-dom";
 const Navbar = () =>{
+  //const router = useRouter();
+ // const navigate = () =>{
+
+  //}
+
     return (
         
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">

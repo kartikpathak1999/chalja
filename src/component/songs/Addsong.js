@@ -64,7 +64,7 @@ const Addsong = () =>{
                     </div>
                     <div className="form-group">
                     <input
-                        type="text"
+                        type="image"
                         className="form-control form-control-lg"
                         placeholder="Enter img "
                         name = "img"

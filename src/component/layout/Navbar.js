@@ -27,7 +27,7 @@ const Navbar = () =>{
           
         </div>
         <Link className='btn btn-outline-light w-25 m-2' to = "/user/add">Add Users</Link>
-        <Link className='btn btn-outline-light w-25'>Add Songs</Link>
+        <Link className='btn btn-outline-light w-25' to = "/song/add">Add Songs</Link>
         </div>
       </nav>
       

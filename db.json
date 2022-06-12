@@ -99,6 +99,14 @@
       "phone": "07004789484",
       "website": "asddsa",
       "id": 5
+    },
+    {
+      "name": "sad",
+      "username": "sad",
+      "email": "asd",
+      "phone": "das",
+      "website": "da",
+      "id": 6
     }
   ],
   "songs": [
@@ -111,108 +119,53 @@
       "rating": 5
     },
     {
-      "name": "Ami je Tomar",
-      "artist": "Arijit Singh",
-      "dateOfRelease": "22/2/2022",
-      "img": "good",
-      "rating": "5",
+      "name": "sad",
+      "artist": "sad",
+      "dateOfRelease": "sad",
+      "img": "C:\\fakepath\\growth.jpg",
+      "rating": "sad",
       "id": 2
     },
     {
-      "name": "Ami je Tomar",
-      "artist": "Arijit Singh",
-      "dateOfRelease": "22/2/2022",
-      "img": "good",
-      "rating": "5",
+      "name": "sad",
+      "artist": "asd",
+      "dateOfRelease": "sad",
+      "img": "C:\\fakepath\\growth.jpg",
+      "rating": "sad",
       "id": 3
     },
     {
-      "name": "Ami je Tomar",
-      "artist": "Arijit Singh",
-      "dateOfRelease": "22/2/2022",
-      "img": "good",
-      "rating": "5",
+      "name": "Aswini Verma",
+      "artist": "sad",
+      "dateOfRelease": "sad",
+      "img": "C:\\fakepath\\download.jpg",
+      "rating": "",
       "id": 4
     },
     {
-      "name": "cvbn",
-      "artist": "xcvbnm",
-      "dateOfRelease": "sdfgh",
-      "img": "xcvbnm,",
-      "rating": "8",
+      "name": "asd",
+      "artist": "dd",
+      "dateOfRelease": "dd",
+      "img": "C:\\fakepath\\download.jpg",
+      "rating": "3",
       "id": 5
     },
     {
-      "name": "Go on Daddy",
-      "artist": "Aswini ",
-      "dateOfRelease": "22/2/2022",
-      "img": "567",
-      "rating": "2",
+      "name": "",
+      "artist": "",
+      "dateOfRelease": "",
+      "img": "",
+      "rating": "",
       "id": 6
-    },
+    }
+  ],
+  "artists": [
     {
-      "name": "",
-      "artist": "",
-      "dateOfRelease": "",
-      "img": "",
-      "rating": "",
-      "id": 7
-    },
-    {
-      "name": "",
-      "artist": "",
-      "dateOfRelease": "",
-      "img": "",
-      "rating": "",
-      "id": 8
-    },
-    {
-      "name": "",
-      "artist": "",
-      "dateOfRelease": "",
-      "img": "",
-      "rating": "",
-      "id": 9
-    },
-    {
-      "name": "",
-      "artist": "",
-      "dateOfRelease": "",
-      "img": "",
-      "rating": "",
-      "id": 10
-    },
-    {
-      "name": "",
-      "artist": "",
-      "dateOfRelease": "",
-      "img": "",
-      "rating": "",
-      "id": 11
-    },
-    {
-      "name": "",
-      "artist": "",
-      "dateOfRelease": "",
-      "img": "",
-      "rating": "",
-      "id": 12
-    },
-    {
-      "name": "",
-      "artist": "",
-      "dateOfRelease": "",
-      "img": "",
-      "rating": "",
-      "id": 13
-    },
-    {
-      "name": "",
-      "artist": "",
-      "dateOfRelease": "",
-      "img": "",
-      "rating": "",
-      "id": 14
+      "name": "Aswini Verma",
+      "dob": "111",
+      "bio": "2312",
+      "songs": "",
+      "id": 1
     }
   ]
 }

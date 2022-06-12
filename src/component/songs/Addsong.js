@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useHistory } from "react-router-dom";
 import{React,useState} from "react";
+import  {Link, NavLink, useRouter} from "react-router-dom";
 
 const Addsong = () =>{
     let history = useHistory;
@@ -15,6 +16,7 @@ const Addsong = () =>{
     const {name,artist,dateOfRelease,img,rating} = song;
 
     const onInputChange = e =>{
+        
         setSong({
             ...song,[e.target.name]:e.target.value
         });
@@ -50,7 +52,8 @@ const Addsong = () =>{
                         name = "artist"
                         value={artist}
                         onChange={e=> onInputChange(e)}
-                        ></input>   
+                        ></input>
+                        <Link className="nav-link"  aria-current="page" to="/artist/add">Add Artist </Link>   
                     </div>
                     <div className="form-group">
                     <input
@@ -63,14 +66,15 @@ const Addsong = () =>{
                         ></input>   
                     </div>
                     <div className="form-group">
+                    <label>Select Artwork</label>
                     <input
-                        type="image"
-                        className="form-control form-control-lg"
-                        placeholder="Enter img "
-                        name = "img"
+                        type="file"
+                        className="form-control form-control-lg" name="img" 
                         value={img}
-                        onChange={e=> onInputChange(e)}
-                        ></input>   
+                        onChange={(e)=>onInputChange(e)} 
+                        >
+                       </input>
+                          
                     </div>
                     <div className="form-group">
                     <input

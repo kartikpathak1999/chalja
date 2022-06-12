@@ -9,6 +9,7 @@ import Adduser from "./component/users/Adduser";
 import EditUser from "./component/users/EditUser";
 import User from "./component/users/User";
 import Addsong from "./component/songs/Addsong";
+import Addartist from "./component/Artist/Addartist";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route exact path = "/user/edit/:id" component={EditUser}></Route>
           <Route exact path = "/user/:id" component={User}></Route>
           <Route exact path = "/song/add" component={Addsong}></Route>
+          <Route exact path = "/artist/add" component={Addartist}></Route>
           <Route exact path = "*" component={PageNotFound}></Route>
         </Switch>
         </div>

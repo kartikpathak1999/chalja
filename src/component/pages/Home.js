@@ -67,6 +67,7 @@ const Home = () =>{
       <th scope="col">Name</th>
       <th scope="col">Artist</th>
       <th scope="col">Date Of Release</th>
+      <th scope="col">Artwork</th>
       <th scope="col">Rating</th>
       <th scope="col">Action</th>
     </tr>
@@ -76,8 +77,9 @@ const Home = () =>{
             <tr>
                 <th scope='row'>{index+1}</th>
                 <td>{song.name}</td>
-                <td><img src={song.img} alt = "no image"/></td>
+                <td>{song.artist}</td>
                 <td>{song.dateOfRelease}</td>
+                <td><img src={song.img} alt = "no image"/></td>
                 <td>{song.rating}</td>
                 <td>
                     <Link className="btn m-2" to={`/user/${song.id}`}><i class="fa-solid fa-eye"></i></Link>

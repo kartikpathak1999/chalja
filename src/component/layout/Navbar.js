@@ -1,42 +1,21 @@
 import React from 'react';
-import  {Link, NavLink, useRouter} from "react-router-dom";
+import  {Link} from "react-router-dom";
+import {RiFileList2Line} from 'react-icons/ri';
+import {BsFillCartCheckFill} from 'react-icons/bs'
+import {BsBagCheckFill} from 'react-icons/bs'
+import {FaHandHoldingHeart} from 'react-icons/fa'
+import './nav.css'
 const Navbar = () =>{
-  //const router = useRouter();
- // const navigate = () =>{
-
-  //}
-
-    return (
-        
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div className='container'>
-        <a className="navbar-brand" href="/">Your Own Spotify</a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon" />
-        </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav mr-auto">
-            <li className="nav-item ">
-              <NavLink className="nav-link active " aria-current="page" to="/">Home </NavLink>
-            </li>
-            <li className="nav-item ">
-              <NavLink className="nav-link"  aria-current="page" to="/about">About </NavLink>
-            </li>
-            <li className="nav-item ">
-              <NavLink className="nav-link"  aria-current="page" to="/contact">Contact </NavLink>
-            </li>
-            
-            
-           
-          </ul>
-          
-        </div>
-        <Link className='btn btn-outline-light w-25 m-2' to = "/user/add">Add Users</Link>
-        <Link className='btn btn-outline-light w-25' to = "/song/add">Add Songs</Link>
-        </div>
-      </nav>
-      
-    );
+  return (
+    <>
+      <div className='snav'>
+        <Link className='snav-a' to = "/cartlist"><BsFillCartCheckFill className='icon'/></Link>
+        <Link className='snav-a' to = "/rdashboard"><RiFileList2Line className='icon'/></Link>
+        <Link className='snav-a' to = "/orderlist"><BsBagCheckFill className='icon'/></Link>
+        <Link className='snav-a' to = "/wishlist"><FaHandHoldingHeart className='icon'/></Link>
+      </div>
+    </>
+  );
 }
 
 export default Navbar;

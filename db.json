@@ -1,171 +1,166 @@
 {
-  "users": [
+  "cart": [
     {
-      "id": 1,
-      "name": "Leanne Graham aswini",
-      "username": "Bret",
-      "email": "Sincere@april.biz",
-      "address": {
-        "street": "Kulas Light",
-        "suite": "Apt. 556",
-        "city": "Gwenborough",
-        "zipcode": "92998-3874",
-        "geo": {
-          "lat": "-37.3159",
-          "lng": "81.1496"
-        }
-      },
-      "phone": "1-770-736-8031 x56442",
-      "website": "hildegard.org",
-      "company": {
-        "name": "Romaguera-Crona",
-        "catchPhrase": "Multi-layered client-server neural-net",
-        "bs": "harness real-time e-markets"
-      }
-    },
-    {
-      "id": 2,
-      "name": "Ervin Howell",
-      "username": "Antonette",
-      "email": "Shanna@melissa.tv",
-      "address": {
-        "street": "Victor Plains",
-        "suite": "Suite 879",
-        "city": "Wisokyburgh",
-        "zipcode": "90566-7771",
-        "geo": {
-          "lat": "-43.9509",
-          "lng": "-34.4618"
-        }
-      },
-      "phone": "010-692-6593 x09125",
-      "website": "anastasia.net",
-      "company": {
-        "name": "Deckow-Crist",
-        "catchPhrase": "Proactive didactic contingency",
-        "bs": "synergize scalable supply-chains"
-      }
-    },
-    {
-      "id": 3,
-      "name": "Clementine Bauch",
-      "username": "Samantha",
-      "email": "Nathan@yesenia.net",
-      "address": {
-        "street": "Douglas Extension",
-        "suite": "Suite 847",
-        "city": "McKenziehaven",
-        "zipcode": "59590-4157",
-        "geo": {
-          "lat": "-68.6102",
-          "lng": "-47.0653"
-        }
-      },
-      "phone": "1-463-123-4447",
-      "website": "ramiro.info",
-      "company": {
-        "name": "Romaguera-Jacobson",
-        "catchPhrase": "Face to face bifurcated interface",
-        "bs": "e-enable strategic applications"
-      }
-    },
-    {
-      "id": 4,
-      "name": "Patricia Lebsack",
-      "username": "Karianne",
-      "email": "Julianne.OConner@kory.org",
-      "address": {
-        "street": "Hoeger Mall",
-        "suite": "Apt. 692",
-        "city": "South Elvis",
-        "zipcode": "53919-4257",
-        "geo": {
-          "lat": "29.4572",
-          "lng": "-164.2990"
-        }
-      },
-      "phone": "493-170-9623 x156",
-      "website": "kale.biz",
-      "company": {
-        "name": "Robel-Corkery",
-        "catchPhrase": "Multi-tiered zero tolerance productivity",
-        "bs": "transition cutting-edge web services"
-      }
-    },
-    {
-      "name": "Aswini Verma",
-      "username": "dasd",
-      "email": "as6dec@gmail.com",
-      "phone": "07004789484",
-      "website": "asddsa",
-      "id": 5
-    },
-    {
-      "name": "sad",
-      "username": "sad",
-      "email": "asd",
-      "phone": "das",
-      "website": "da",
-      "id": 6
-    }
-  ],
-  "songs": [
-    {
-      "id": 1,
-      "name": "banjara",
-      "artist": "arijit",
-      "dateOfRelease": "22=05-2020",
-      "img": "/images/download.jpg",
-      "rating": 5
-    },
-    {
-      "name": "sad",
-      "artist": "sad",
-      "dateOfRelease": "sad",
-      "img": "C:\\fakepath\\growth.jpg",
-      "rating": "sad",
-      "id": 2
-    },
-    {
-      "name": "sad",
-      "artist": "asd",
-      "dateOfRelease": "sad",
-      "img": "C:\\fakepath\\growth.jpg",
-      "rating": "sad",
+      "cust_id": 10200,
+      "productType": "Electronics",
+      "productName": "Vibration Motor",
+      "category": "Utensillu",
+      "rating": "5",
+      "review": "dsfdsfds",
+      "imageUrl": "DUmmy",
+      "price": "2000",
+      "description": "asd",
+      "specification": "40 cm long ",
       "id": 3
     },
     {
-      "name": "Aswini Verma",
-      "artist": "sad",
-      "dateOfRelease": "sad",
-      "img": "C:\\fakepath\\download.jpg",
-      "rating": "",
+      "cust_id": 5100,
+      "productType": "fruits",
+      "productName": "mango",
+      "category": "fruits",
+      "rating": "5",
+      "review": "good",
+      "imageUrl": "C:\\fakepath\\Hapus_Mango.jpg",
+      "price": "100",
+      "description": "a good for health",
+      "specification": "good",
       "id": 4
     },
     {
-      "name": "asd",
-      "artist": "dd",
-      "dateOfRelease": "dd",
-      "img": "C:\\fakepath\\download.jpg",
-      "rating": "3",
+      "cust_id": 6000,
+      "productType": "fruits",
+      "productName": "Guava",
+      "category": "good",
+      "rating": "5",
+      "review": "good",
+      "imageUrl": "C:\\fakepath\\guava.jpeg",
+      "price": "70",
+      "description": "good",
+      "specification": "good",
       "id": 5
     },
     {
-      "name": "",
-      "artist": "",
-      "dateOfRelease": "",
-      "img": "",
-      "rating": "",
+      "cust_id": 6000,
+      "productType": "fruits",
+      "productName": "Guava",
+      "category": "good",
+      "rating": "5",
+      "review": "good",
+      "imageUrl": "C:\\fakepath\\guava.jpeg",
+      "price": "70",
+      "description": "good",
+      "specification": "good",
       "id": 6
+    },
+    {
+      "cust_id": 8100,
+      "productType": "fruits",
+      "productName": "apples",
+      "category": "fruits",
+      "rating": "5",
+      "review": "good",
+      "imageUrl": "gggdgdg",
+      "price": "6777",
+      "description": "good",
+      "specification": "gggggd",
+      "id": 7
     }
   ],
-  "artists": [
+  "cart1": [
     {
-      "name": "Aswini Verma",
-      "dob": "111",
-      "bio": "2312",
-      "songs": "",
+      "cust_id": 7200,
+      "productType": "fruit",
+      "productName": "Mango",
+      "category": "good",
+      "rating": "5",
+      "review": "good",
+      "imageUrl": "C:\\fakepath\\mango.png",
+      "price": "89",
+      "description": "good",
+      "specification": "good",
+      "id": 7
+    },
+    {
+      "cust_id": 8700,
+      "productType": "fruit",
+      "productName": "mango",
+      "category": "fruit",
+      "rating": "5",
+      "review": "good for health",
+      "imageUrl": "C:\\fakepath\\mango.png",
+      "price": "66",
+      "description": "good",
+      "specification": "good",
+      "id": 8
+    },
+    {
+      "cust_id": 8700,
+      "productType": "fruit",
+      "productName": "mango",
+      "category": "fruit",
+      "rating": "5",
+      "review": "good for health",
+      "imageUrl": "C:\\fakepath\\mango.png",
+      "price": "66",
+      "description": "good",
+      "specification": "good",
+      "id": 9
+    }
+  ],
+  "wish": [
+    {
+      "cust_id": 13200,
+      "productType": "Mobile",
+      "productName": "iPhone21",
+      "category": "Electronics",
+      "rating": "5",
+      "review": "Goodss",
+      "imageUrl": "C:\\fakepath\\download (3) (1).jpg",
+      "price": "50000",
+      "description": "Good Phone",
+      "specification": "Fastsss",
       "id": 1
+    }
+  ],
+  "wish1": [
+    {
+      "cust_id": 14400,
+      "productType": "Food",
+      "productName": "Spatula",
+      "category": "Wooden product",
+      "rating": "2",
+      "review": "Tasty",
+      "imageUrl": "C:\\fakepath\\download (3) (1).jpg",
+      "price": "2000",
+      "description": "asd",
+      "specification": "asd",
+      "id": 2
+    },
+    {
+      "cust_id": 13200,
+      "productType": "Mobile",
+      "productName": "iPhone21",
+      "category": "Electronics",
+      "rating": "5",
+      "review": "Goodss",
+      "imageUrl": "C:\\fakepath\\download (3) (1).jpg",
+      "price": "50000",
+      "description": "Good Phone",
+      "specification": "Fastsss",
+      "id": 3
+    },
+    {
+      "cust_id": 13200,
+      "productType": "Mobile",
+      "productName": "iPhone21",
+      "category": "Electronics",
+      "rating": "5",
+      "review": "Goodss",
+      "imageUrl": "C:\\fakepath\\download (3) (1).jpg",
+      "price": "50000",
+      "description": "Good Phone",
+      "specification": "Fastsss",
+      "id": 4
     }
   ]
 }

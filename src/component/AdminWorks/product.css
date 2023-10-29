@@ -1,0 +1,85 @@
+.faction3:hover {
+    transform: scale(1.5);
+    transition: all 400ms ease;
+}
+
+.faction1:hover {
+    transform: scale(3);
+    transition: all 400ms ease;
+}
+.faction:hover {
+    transform: scale(1.5);
+    transition: all 400ms ease;
+    text-align: center;
+}
+/* .faction3{
+    width: 50%;
+    height: 100%;
+} */
+.heading{
+    color: rgb(30, 28, 28);
+        -webkit-text-stroke: 0.09vw rgb(250, 250, 250);
+        text-transform: uppercase;
+        text-shadow: 2px 2px;
+}
+.portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.portfolio__item {
+    background: rgb(242, 247, 225);
+    padding: 1.2rem;
+    border-radius: 1.5rem;
+    border: 1px solid transparent;
+    border-color: rgb(0, 0, 0);
+}
+
+.portfolio__item:hover {
+    border-color: var(--color-primary-variant);
+    background: rgb(173, 218, 218);
+}
+
+.portfolio__item-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.portfolio__item h3 {
+    margin: 1.2rem 0 2rem;
+    text-align: center;
+}
+
+.portfolio__item-cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+/* Media quries (Medium devices)*/
+@media screen and (max-width:1024px) {
+    .portfolio__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+
+
+}
+
+/* Media quries (small devices)*/
+
+@media screen and (max-width:600px) {
+    .portfolio__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+body {
+
+    background-size: cover;
+
+    background-image: url("https://th.bing.com/th/id/R.8f34f4872a254b8bff46db7aca7070bd?rik=eWAGmVHYNzqPNw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fxo1DOKG.jpg&ehk=Op8Sxa6%2brJt6eHK86izfuFnbd%2fNNYADk1HlS3qsg3RY%3d&risl=&pid=ImgRaw&r=0");
+
+}

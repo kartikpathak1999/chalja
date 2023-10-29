@@ -1,0 +1,26 @@
+.specific{
+    padding: 1.2rem;
+        border-radius: 0;
+        border: 1px solid transparent;
+        margin-top: 100px;
+}
+.specific2 {
+    padding: 1.2rem;
+    border-radius: 0;
+    border: 1px solid transparent;
+    margin-top: 100px;
+}
+.cont{
+    display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
+}
+.specific:hover{
+    transform:  skew(30deg);
+    transition: all 400ms ease;
+}
+
+.specific2:hover {
+    transform: skew(-30deg);
+    transition: all 400ms ease;
+}

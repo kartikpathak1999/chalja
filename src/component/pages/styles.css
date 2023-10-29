@@ -1,0 +1,77 @@
+
+.image {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 400px;
+    transform: rotate(0deg);
+}
+
+.image:hover{
+    transform: rotate(10deg);
+    transition: all 400ms ease;
+}
+
+.fbutton:hover{
+    transform: scale(1.5);
+        transition: all 400ms ease;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    
+}
+video{
+    width: 100%;
+    height: 100vh;
+    object-fit:cover;
+}
+.content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.fh2{
+    font-size:10vh;
+    color: rgb(38, 46, 49);
+    -webkit-text-stroke: 0.1vw rgb(244, 237, 237);
+    text-transform: uppercase;
+}
+.fh1 {
+    font-size: 10vh;
+    color: rgb(38, 46, 49);
+    -webkit-text-stroke: 0.1vw rgb(244, 237, 237);
+    text-transform: uppercase;
+}
+.fh1::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: rgb(212, 127, 255);
+    -webkit-text-stroke: 0vw rgb(244, 237, 237);
+    border-right: 2px solid rgb(54, 160, 125);
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+
+@keyframes animate{
+    0%,10%,100%
+    {
+        width: 0;
+    }
+    70%,90% 
+    {
+        width: 100%;
+    }
+}
